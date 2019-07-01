@@ -25,9 +25,20 @@ p{
     font-size: 2.25em;
 }
 
+form{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 95%
+}
+
 .mainContentContainer{
     margin: 0px auto;
-    width: 80%;
+    width: 65%;
 }
 
 .linkList{
@@ -51,19 +62,44 @@ p{
     margin-top: 100px;
 }
 
-#divHeadingBackground{
+.formContainer{
+    border-style: solid;
+    border-color: #A6978F;
+    border-width: 1px;
+    font-size: 2em;
+}
+
+.formLabel{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+/*
+.formTextIn{
+    width: 95%;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+*/
+.formMultilineIn{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.divHeadingBackground{
     margin: 0;
     width: 100%;
     background-color: #6B735A;
     margin-bottom: 40px;
 }
 
-#divHeading{
+.divHeading{
     margin: 0px auto;
-    width: 80%;
+    width: 65%;
 }
 
-#divHeadingNamebox{
+.divHeadingNamebox{
     display: inline-block;
     background-color: #A6978F;
     width: 20%;
