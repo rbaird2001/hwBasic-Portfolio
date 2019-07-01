@@ -16,6 +16,15 @@ h1{
     display: inline-block;
 }
 
+h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p{
+    font-size: 2.25em;
+}
+
 .mainContentContainer{
     margin: 0px auto;
     width: 80%;
@@ -36,10 +45,17 @@ h1{
     clear: both;
 }
 
+.footerBackground{
+    background-color: #6B735A;
+    height: 15px;
+    margin-top: 100px;
+}
+
 #divHeadingBackground{
     margin: 0;
     width: 100%;
     background-color: #6B735A;
+    margin-bottom: 40px;
 }
 
 #divHeading{
@@ -53,6 +69,15 @@ h1{
     width: 20%;
     text-align: center;
 }
+
+#imgMainProfile{
+    height: 165px;
+    width: 165px;
+    margin-right: 20px;
+    float: left;
+}
+
+
 
 /* Color Theme Swatches in Hex */
 .Architecture-1-hex { color: #6B735A; }
