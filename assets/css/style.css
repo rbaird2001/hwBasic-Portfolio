@@ -1,24 +1,43 @@
-body{
-
+body{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-h1{
-
-}
-
-h2{
-
-}
 
 p{
-
+    font-size: 18pt;
+    line-height: 1.6;
 }
+/*
+.mainContentContainer{
+    width: 1024;
+    margin: 100%;
+}
+*/
 
 .heading{
-
+    background-color: rgb(240, 238, 238);
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 1px;
 }
-
+/*
 .headLinks{
-
+    float: right;
 }
+*/
+.floatClear{
+    clear: both;
+}
+
+#h1Name{
+    display: inline;
+}
+
+#imgMainProfile{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
 
