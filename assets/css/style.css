@@ -106,14 +106,33 @@ input{
     text-align: center;
 }
 
-.galleryImage{
-    height: 300px;
-    width: 300px;
-    margin: 30px;
+.galleryImgContainer{
+    height: 60%;
+    width: 45%;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 1.5%;
     border-style: solid;
     border-width: 2px;
     border-color: #734432;
+    float: left;
+    overflow: auto;
+    background-image: url("../images/DanielTigerFamilyIsDark.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+.galleryImgContainer::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .galleryImage{
+    height: 100%;
+    width: 100%;
+  }
 
 #imgMainProfile{
     height: 165px;
@@ -121,8 +140,6 @@ input{
     margin-right: 20px;
     float: left;
 }
-
-
 
 /* Color Theme Swatches in Hex */
 .Architecture-1-hex { color: #6B735A; }
