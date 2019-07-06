@@ -101,6 +101,10 @@ hr{
 .formMultilineIn{
     margin-top: 8px;
     margin-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 95%
 }
 
 .divHeadingBackground{
@@ -132,24 +136,6 @@ hr{
     border-width: 2px;
     border-color: #734432;
     float: left;
-
-    /* overflow: auto; */
-    /* background-size: contain; */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* height: 60%;
-    width: 45%;
-    min-width: 300px;
-    min-height: 300px;
-    margin: 1.5%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #734432;
-    float: left;
-    overflow: auto;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; */
 }
 
 .galleryImgContainer::after {
@@ -173,16 +159,6 @@ hr{
     font-size: 2em;
     opacity: .65;
     bottom: 85px;
-
-    /* position: relative;
-    height: 40px;
-    width: 100%;
-    top: 245px;
-    background-color: #6B735A;
-    color: azure;
-    font-size: 2em;
-    opacity: .85; */
-
   }
 
 #imgMainProfile{
