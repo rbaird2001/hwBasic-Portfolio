@@ -1,5 +1,6 @@
-
+/*
 @import "gallery.css";
+*/
 
 body{
     position: absolute;
@@ -42,6 +43,9 @@ input{
 
 hr{
     margin-bottom: 20px;
+    height: 3px;
+    background-color: #A6978F;
+    border-style: none;
 }
 
 .mainContentContainer{
@@ -58,6 +62,10 @@ hr{
     font-size: 2em;
     display: inline;
     list-style-type: none;
+}
+
+.linkList a:visited{
+    color: #26201D;
 }
 
 .floatClear{
@@ -115,7 +123,21 @@ hr{
 }
 
 .galleryImgContainer{
-    height: 60%;
+    height: 250px;
+    width: 250px;
+    /* min-width: 300px; */
+    /* min-height: 300px; */
+    margin: 1.5%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #734432;
+    float: left;
+
+    /* overflow: auto; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* height: 60%;
     width: 45%;
     min-width: 300px;
     min-height: 300px;
@@ -125,10 +147,9 @@ hr{
     border-color: #734432;
     float: left;
     overflow: auto;
-    /*background-image: url("../images/DanielTigerFamilyIsDark.jpg");*/
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
 
 .galleryImgContainer::after {
@@ -137,15 +158,31 @@ hr{
     display: table;
   }
 
+  .galleryImage{
+      height: 250px;
+      width: 250px;
+  }
+
   .galleryButton{
+
     position: relative;
+    height: 15%;
+    width: 100%;
+    background-color: #6B735A;
+    color: azure;
+    font-size: 2em;
+    opacity: .65;
+    bottom: 85px;
+
+    /* position: relative;
     height: 40px;
     width: 100%;
     top: 245px;
     background-color: #6B735A;
     color: azure;
     font-size: 2em;
-    opacity: .85;
+    opacity: .85; */
+
   }
 
 #imgMainProfile{
@@ -161,4 +198,3 @@ hr{
 .Architecture-3-hex { color: #734432; }
 .Architecture-4-hex { color: #26201D; }
 .Architecture-5-hex { color: #BF584E; }
-
